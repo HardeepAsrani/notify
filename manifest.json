@@ -1,0 +1,25 @@
+{
+	"name": "Notify!",
+	"description": "A Google Chrome extension!",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": [
+		"contextMenus",
+		"notifications",
+		"storage"
+	],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html",
+	  "default_icon": {
+		"48": "/assets/icons/48.png",
+		"128": "/assets/icons/128.png"
+	  }
+	},
+	"icons": {
+		"48": "/assets/icons/48.png",
+		"128": "/assets/icons/128.png"
+	}
+}
